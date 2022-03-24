@@ -331,6 +331,9 @@ persist-key
 persist-tun
 duplicate-cn
 
+cipher AES-256-GCM
+data-ciphers AES-256-GCM
+
 proto $OVPN_PROTO
 # Rely on Docker to do port mapping, internally always 1194
 port 1194
