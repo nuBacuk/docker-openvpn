@@ -37,6 +37,9 @@ nobind
 dev $OVPN_DEVICE
 remote-cert-tls server
 
+cipher AES-256-GCM
+#data-ciphers AES-256-GCM
+
 remote $OVPN_CN $OVPN_PORT $OVPN_PROTO"
     if [ "$OVPN_PROTO" == "udp6" ]; then
         echo "remote $OVPN_CN $OVPN_PORT udp"
