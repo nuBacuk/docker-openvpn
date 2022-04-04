@@ -3,7 +3,7 @@
 updated alpine and packages  
 added dns cloudflare  
 added to duplicate_cn  
-key size changed 2048 > 4096  
+key size changed 2048
 
 # OpenVPN for Docker
 
