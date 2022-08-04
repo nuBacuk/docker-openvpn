@@ -21,6 +21,13 @@ OpenVPN server in a Docker container complete with an EasyRSA PKI CA.
   service.  Users are encourage to replace `example` with a descriptive name of
   their choosing.
   
+  The architectures supported by this image are:
+
+| Architecture | Available | Tag |
+| :----: | :----: | ---- |
+| x86-64 | ✅ | x86_64 |
+| arm64 | ✅ | aarch64 |
+  
   There are images for aarch64(arm) and x86_64
 
       OVPN_DATA="ovpn-data"
