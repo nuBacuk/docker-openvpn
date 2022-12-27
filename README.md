@@ -1,4 +1,4 @@
-# Differences from the original.
+# Differences from the original
 
 updated alpine and packages  
 added dns cloudflare  
