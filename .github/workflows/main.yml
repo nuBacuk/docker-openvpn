@@ -39,7 +39,7 @@ jobs:
 
 jobs:
   docker:
-    runs-on: AMD64
+    runs-on: X64
     steps:
       -
         name: Checkout
