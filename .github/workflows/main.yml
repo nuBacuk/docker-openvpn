@@ -8,7 +8,7 @@ on:
       - "master"
 
 jobs:
-  docker:
+  docker-arm:
     runs-on: ARM64
     steps:
       -
@@ -37,8 +37,7 @@ jobs:
           tags: |
             nubacuk/docker-openvpn:aarch64
 
-jobs:
-  docker:
+  docker-x64:
     runs-on: X64
     steps:
       -
