@@ -1,5 +1,6 @@
 # Differences from the original
 
+automatic build and push docker image every Monday, Wednesday, Friday  
 updated alpine and packages  
 added dns cloudflare  
 added to duplicate_cn  
