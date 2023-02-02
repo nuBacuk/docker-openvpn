@@ -38,7 +38,7 @@ jobs:
             nubacuk/docker-openvpn:aarch64
 
   docker-x64:
-    runs-on: X64
+    runs-on: [X64, Linux]
     steps:
       -
         name: Checkout
