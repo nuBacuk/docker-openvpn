@@ -9,7 +9,7 @@ on:
 
 jobs:
   docker-arm:
-    runs-on: ARM64
+    runs-on: self-hosted
     steps:
       -
         name: Checkout
@@ -35,7 +35,7 @@ jobs:
             nubacuk/docker-openvpn:aarch64
 
   docker-x64:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       -
         name: Checkout
