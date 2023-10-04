@@ -9,7 +9,7 @@ on:
 
 jobs:
   docker-arm:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -39,7 +39,7 @@ jobs:
             nubacuk/docker-openvpn:aarch64
 
   docker-x64:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
